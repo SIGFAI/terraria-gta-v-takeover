@@ -1,0 +1,6 @@
+Clip moments (in order):
+1. [x] Sunset Los Santos skyline, "GTA V TAKEOVER" title, cash counter, player with pistol shooting gangsters (muzzle flash, blood, cash drops).
+2. [x] A red sports car speeds in and runs over gangsters and slimes (blood and hit sparks); the hit launch is small on screen.
+3. [x] Kills raise the WANTED stars: siren, red/blue flashing screen edges, cops appear and shoot back.
+4. [~] RPG rocket with smoke trail explodes on enemies; the ground crater is small and hard to read (weak).
+5. [x] Police chopper circles with a searchlight; shot down: explosion, "MISSION PASSED", +$2,500.

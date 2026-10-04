@@ -1,0 +1,1 @@
+Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, enable "SIGF Mix" in tModLoader's Manage Mods menu, then start any world. Los Santos appears around spawn.
