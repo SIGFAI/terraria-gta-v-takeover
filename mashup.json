@@ -3,6 +3,13 @@
   "version": "1.0.0",
   "name": "GTA V Takeover",
   "tagline": "Bring GTA V into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Los Santos takes over: the area around you becomes a neon boulevard full of armed gangsters and joyriding sports cars.",
+    "Fight back with your own weapons; kills drop cash that fills the wallet on screen.",
+    "Kills raise your wanted level: cops show up at 1 star and a police chopper at 3 stars, then the stars slowly cool off.",
+    "Create or enter any world; the takeover starts as soon as it loads.",
+    "Your character currently walks and attacks on its own (autopilot) and cannot be hurt."
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -74,8 +81,5 @@
     "id": "terraria",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:28:27.556Z",
-  "notes": [
-    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, enable \"SIGF Mix\" in tModLoader's Manage Mods menu, then start any world. Los Santos appears around spawn."
-  ]
+  "built_at": "2026-10-05T15:28:27.556Z"
 }
