@@ -1,0 +1,81 @@
+{
+  "id": "sigf/terraria-gta-v-takeover",
+  "version": "1.0.0",
+  "name": "GTA V Takeover",
+  "tagline": "Bring GTA V into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "terraria",
+      "role": "host",
+      "engine": "Terraria 1.4.4 + tModLoader (C#, .NET 8)",
+      "apps": {
+        "steam": "1281930"
+      }
+    },
+    {
+      "game": "gta5",
+      "role": "guest",
+      "label": "GTA V"
+    }
+  ],
+  "requires": [
+    {
+      "id": "tmodloader"
+    }
+  ],
+  "install": [
+    {
+      "game": "terraria",
+      "strategy": "game-dir-snapshot",
+      "files": [
+        {
+          "src": "terraria-gta-v-takeover.zip",
+          "dst": "{docs}/My Games/Terraria/tModLoader/Mods",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "Sigf.tmod",
+              "sha256": "18a2c2f8ddf0457c1fb579c7439aed1e658ba0c0d27d6170de73ebd25640629e"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/terraria-gta-v-takeover/releases/download/v1.0.0/terraria-gta-v-takeover.zip",
+          "sha256": "47faf5c5cd9168a0e7f42ff979ecb39218f5c59da230c54b1532b52cfcbd1dd5",
+          "size": 111716
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "terraria",
+      "args": []
+    }
+  ],
+  "files": [
+    {
+      "name": "terraria-gta-v-takeover.zip",
+      "url": "https://github.com/SIGFAI/terraria-gta-v-takeover/releases/download/v1.0.0/terraria-gta-v-takeover.zip",
+      "sha256": "47faf5c5cd9168a0e7f42ff979ecb39218f5c59da230c54b1532b52cfcbd1dd5",
+      "size": 111716
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/terraria-gta-v-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "terraria",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:28:27.556Z",
+  "notes": [
+    "Copy Sigf.tmod into Documents/My Games/Terraria/tModLoader/Mods, enable \"SIGF Mix\" in tModLoader's Manage Mods menu, then start any world. Los Santos appears around spawn."
+  ]
+}
